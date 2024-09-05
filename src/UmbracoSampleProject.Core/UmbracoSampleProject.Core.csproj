@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\ApiControllers\" />
+    <Folder Include="Controllers\SurfaceControllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Umbraco.Cms.Core" Version="13.4.1" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.4.1" />
+    <PackageReference Include="Umbraco.Cms.Web.Common" Version="13.4.1" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="13.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UmbracoSampleProject.Models\UmbracoSampleProject.Models.csproj" />
+  </ItemGroup>
+
+</Project>
